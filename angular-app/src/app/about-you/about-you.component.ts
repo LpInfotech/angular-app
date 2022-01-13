@@ -6,7 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about-you.component.scss']
 })
 export class AboutYouComponent implements OnInit {
-
+  title= 'Angular Title';
+  today= Date();
+  user={
+    name:'chirag',
+    age:21,
+  }
   constructor() { }
 
   ngOnInit(): void {
