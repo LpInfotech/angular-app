@@ -9,7 +9,10 @@ import { ContactComponent } from './contact/contact.component';
 import { UsdInrPipe } from './pipes/usd-inr.pipe';
 import { NpPageComponent } from './np-page/np-page.component';
 import { AboutMeComponent } from './about-me/about-me.component';
-import { AboutYouComponent } from './about-you/about-you.component'; 
+import { AboutYouComponent } from './about-you/about-you.component';
+import { RedElDirective } from './red-el.directive';
+import { PractiseComponent } from './practise/practise.component';
+import { ChildComponent } from './child/child.component'; 
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { AboutYouComponent } from './about-you/about-you.component';
     UsdInrPipe,
     NpPageComponent,
     AboutMeComponent,
-    AboutYouComponent
+    AboutYouComponent,
+    RedElDirective,
+    PractiseComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,

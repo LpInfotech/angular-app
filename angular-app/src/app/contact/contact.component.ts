@@ -10,6 +10,13 @@ export class ContactComponent implements OnInit {
   getValue(val:string){
     this.displayVal=val;
   }
+
+  // pass data parent to child
+  childData = 20;
+
+  updateChild(){
+    this.childData = Math.floor(Math.random()*10)
+  }
   constructor() { }
 
   ngOnInit(): void {
